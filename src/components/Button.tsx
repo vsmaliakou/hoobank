@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface IComponentProps {
-  styles: string;
+  styles?: string;
 }
 
 const Button: React.FC<IComponentProps> = ({ styles }) => {
